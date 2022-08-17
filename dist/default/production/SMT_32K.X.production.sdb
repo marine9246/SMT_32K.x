@@ -3,7 +3,7 @@
 [d edition pro ]
 [d chip 16F18857 ]
 [d frameptr 6 ]
-"67 C:\Users\110186081\MPLABXProjects\SMT_32K.X\mcc_generated_files/examples/i2c2_master_example.c
+"67 C:\Users\user\MPLABXProjects\SMT_32K.x\mcc_generated_files/examples/i2c2_master_example.c
 [e E353 . `uc
 I2C2_NOERR 0
 I2C2_BUSY 1
@@ -17,7 +17,7 @@ I2C2_RESTART_WRITE 3
 I2C2_CONTINUE 4
 I2C2_RESET_LINK 5
 ]
-"88 C:\Users\110186081\MPLABXProjects\SMT_32K.X\mcc_generated_files/tmr2.c
+"88 C:\Users\user\MPLABXProjects\SMT_32K.x\mcc_generated_files/tmr2.c
 [e E11628 . `uc
 TMR2_ROP_STARTS_TMRON 0
 TMR2_ROP_STARTS_TMRON_ERSHIGH 1
@@ -62,7 +62,7 @@ TMR2_CLC2_OUT 15
 TMR2_CLC3_OUT 16
 TMR2_CLC4_OUT 17
 ]
-"146 C:\Users\110186081\MPLABXProjects\SMT_32K.X\mcc_generated_files/i2c2_master.c
+"146 C:\Users\user\MPLABXProjects\SMT_32K.x\mcc_generated_files/i2c2_master.c
 [e E12018 . `uc
 I2C2_IDLE 0
 I2C2_SEND_ADR_READ 1
@@ -103,7 +103,7 @@ I2C2_DATA_NACK 3
 I2C2_TIMEOUT 4
 I2C2_NULL 5
 ]
-"24 C:\Users\110186081\MPLABXProjects\SMT_32K.X\lcd_lib.c
+"24 C:\Users\user\MPLABXProjects\SMT_32K.x\lcd_lib.c
 [e E11959 . `uc
 I2C2_NOERR 0
 I2C2_BUSY 1
@@ -175,7 +175,7 @@ I2C2_FAIL 2
 [v ___eecpymem __eecpymem `(v  1 e 1 0 ]
 "39
 [v ___memcpyee __memcpyee `(v  1 e 1 0 ]
-"18 C:\Users\110186081\MPLABXProjects\SMT_32K.X\lcd_lib.c
+"18 C:\Users\user\MPLABXProjects\SMT_32K.x\lcd_lib.c
 [v _lcd_data lcd_data `(v  1 e 1 0 ]
 "35
 [v _lcd_cmd lcd_cmd `(v  1 e 1 0 ]
@@ -183,9 +183,9 @@ I2C2_FAIL 2
 [v _lcd_init lcd_init `(v  1 e 1 0 ]
 "85
 [v _lcd_str lcd_str `(v  1 e 1 0 ]
-"56 C:\Users\110186081\MPLABXProjects\SMT_32K.X\main.c
+"56 C:\Users\user\MPLABXProjects\SMT_32K.x\main.c
 [v _main main `(v  1 e 1 0 ]
-"66 C:\Users\110186081\MPLABXProjects\SMT_32K.X\mcc_generated_files/eusart.c
+"66 C:\Users\user\MPLABXProjects\SMT_32K.x\mcc_generated_files/eusart.c
 [v _EUSART_Initialize EUSART_Initialize `(v  1 e 1 0 ]
 "144
 [v _EUSART_DefaultFramingErrorHandler EUSART_DefaultFramingErrorHandler `(v  1 e 1 0 ]
@@ -199,7 +199,7 @@ I2C2_FAIL 2
 [v _EUSART_SetOverrunErrorHandler EUSART_SetOverrunErrorHandler `(v  1 e 1 0 ]
 "165
 [v _EUSART_SetErrorHandler EUSART_SetErrorHandler `(v  1 e 1 0 ]
-"142 C:\Users\110186081\MPLABXProjects\SMT_32K.X\mcc_generated_files/examples/i2c2_master_example.c
+"142 C:\Users\user\MPLABXProjects\SMT_32K.x\mcc_generated_files/examples/i2c2_master_example.c
 [v _rd1RegCompleteHandler rd1RegCompleteHandler `(E358  1 s 1 rd1RegCompleteHandler ]
 "149
 [v _rd2RegCompleteHandler rd2RegCompleteHandler `(E358  1 s 1 rd2RegCompleteHandler ]
@@ -209,7 +209,7 @@ I2C2_FAIL 2
 [v _wr2RegCompleteHandler wr2RegCompleteHandler `(E358  1 s 1 wr2RegCompleteHandler ]
 "170
 [v _rdBlkRegCompleteHandler rdBlkRegCompleteHandler `(E358  1 s 1 rdBlkRegCompleteHandler ]
-"167 C:\Users\110186081\MPLABXProjects\SMT_32K.X\mcc_generated_files/i2c2_master.c
+"167 C:\Users\user\MPLABXProjects\SMT_32K.x\mcc_generated_files/i2c2_master.c
 [v _I2C2_Initialize I2C2_Initialize `(v  1 e 1 0 ]
 "176
 [v _I2C2_Open I2C2_Open `(E353  1 e 1 0 ]
@@ -305,21 +305,21 @@ I2C2_FAIL 2
 [v _I2C2_MasterSetIrq I2C2_MasterSetIrq `T(v  1 s 1 I2C2_MasterSetIrq ]
 "650
 [v _I2C2_MasterWaitForEvent I2C2_MasterWaitForEvent `T(v  1 s 1 I2C2_MasterWaitForEvent ]
-"50 C:\Users\110186081\MPLABXProjects\SMT_32K.X\mcc_generated_files/mcc.c
+"50 C:\Users\user\MPLABXProjects\SMT_32K.x\mcc_generated_files/mcc.c
 [v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
 "61
 [v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
 "79
 [v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
-"55 C:\Users\110186081\MPLABXProjects\SMT_32K.X\mcc_generated_files/pin_manager.c
+"55 C:\Users\user\MPLABXProjects\SMT_32K.x\mcc_generated_files/pin_manager.c
 [v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
-"59 C:\Users\110186081\MPLABXProjects\SMT_32K.X\mcc_generated_files/smt1.c
+"59 C:\Users\user\MPLABXProjects\SMT_32K.x\mcc_generated_files/smt1.c
 [v _SMT1_Initialize SMT1_Initialize `(v  1 e 1 0 ]
 "90
 [v _SMT1_DataAcquisitionEnable SMT1_DataAcquisitionEnable `(v  1 e 1 0 ]
 "165
 [v _SMT1_GetCapturedPeriod SMT1_GetCapturedPeriod `(ul  1 e 4 0 ]
-"62 C:\Users\110186081\MPLABXProjects\SMT_32K.X\mcc_generated_files/tmr2.c
+"62 C:\Users\user\MPLABXProjects\SMT_32K.x\mcc_generated_files/tmr2.c
 [v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
 "100
 [v _TMR2_Start TMR2_Start `(v  1 e 1 0 ]
@@ -331,9 +331,9 @@ I2C2_FAIL 2
 [v _TMR2_Counter8BitSet TMR2_Counter8BitSet `(v  1 e 1 0 ]
 "147
 [v _TMR2_Period8BitSet TMR2_Period8BitSet `(v  1 e 1 0 ]
-"19 C:\Users\110186081\MPLABXProjects\SMT_32K.X/lcd_lib.h
+"19 C:\Users\user\MPLABXProjects\SMT_32K.x/lcd_lib.h
 [v _ICON ICON `DC[14][2]ui  1 e 56 0 ]
-"597 C:/Users/110186081/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8\pic\include\proc\pic16f18857.h
+"597 C:/Users/user/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8\pic\include\proc\pic16f18857.h
 [v _TRISA TRISA `VEuc  1 e 1 @17 ]
 "659
 [v _TRISB TRISB `VEuc  1 e 1 @18 ]
@@ -857,7 +857,7 @@ I2C2_FAIL 2
 [v _dbuf dbuf `[80]uc  1 s 80 dbuf ]
 "69
 [v _nout nout `i  1 s 2 nout ]
-"49 C:\Users\110186081\MPLABXProjects\SMT_32K.X\main.c
+"49 C:\Users\user\MPLABXProjects\SMT_32K.x\main.c
 [v _Period Period `l  1 e 4 0 ]
 "50
 [v _Freq Freq `d  1 e 4 0 ]
@@ -873,7 +873,7 @@ I2C2_FAIL 2
 `uc 1 oerr 1 0 :1:2 
 `uc 1 reserved 1 0 :5:3 
 ]
-"52 C:\Users\110186081\MPLABXProjects\SMT_32K.X\mcc_generated_files/eusart.c
+"52 C:\Users\user\MPLABXProjects\SMT_32K.x\mcc_generated_files/eusart.c
 [u S414 . 1 `S409 1 . 1 0 `uc 1 status 1 0 ]
 [v _eusartRxLastError eusartRxLastError `VES414  1 e 1 0 ]
 "58
@@ -882,7 +882,7 @@ I2C2_FAIL 2
 [v _EUSART_OverrunErrorHandler EUSART_OverrunErrorHandler `*.37(v  1 e 2 0 ]
 "60
 [v _EUSART_ErrorHandler EUSART_ErrorHandler `*.37(v  1 e 2 0 ]
-"146 C:\Users\110186081\MPLABXProjects\SMT_32K.X\mcc_generated_files/i2c2_master.c
+"146 C:\Users\user\MPLABXProjects\SMT_32K.x\mcc_generated_files/i2c2_master.c
 [v _i2c2_fsmStateTable i2c2_fsmStateTable `DC[16]*.37(E12018  1 e 32 0 ]
 [s S915 . 29 `[6]*.37(E358 1 callbackTable 12 0 `[6]*.1v 1 callbackPayload 6 12 `us 1 time_out 2 18 `us 1 time_out_value 2 20 `uc 1 address 1 22 `*.4uc 1 data_ptr 1 23 `ui 1 data_length 2 24 `E12018 1 state 1 26 `E353 1 error 1 27 `uc 1 addressNackCheck 1 28 :1:0 
 `uc 1 busy 1 28 :1:1 
@@ -891,7 +891,7 @@ I2C2_FAIL 2
 ]
 "165
 [v _I2C2_Status I2C2_Status `S915  1 e 29 0 ]
-"56 C:\Users\110186081\MPLABXProjects\SMT_32K.X\main.c
+"56 C:\Users\user\MPLABXProjects\SMT_32K.x\main.c
 [v _main main `(v  1 e 1 0 ]
 {
 "107
@@ -1283,7 +1283,7 @@ I2C2_FAIL 2
 [v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
 "53
 } 0
-"85 C:\Users\110186081\MPLABXProjects\SMT_32K.X\lcd_lib.c
+"85 C:\Users\user\MPLABXProjects\SMT_32K.x\lcd_lib.c
 [v _lcd_str lcd_str `(v  1 e 1 0 ]
 {
 [v lcd_str@ptr ptr `*.5DCuc  1 a 1 wreg ]
@@ -1320,7 +1320,7 @@ I2C2_FAIL 2
 [v lcd_cmd@cmd cmd `uc  1 a 1 8 ]
 "52
 } 0
-"176 C:\Users\110186081\MPLABXProjects\SMT_32K.X\mcc_generated_files/i2c2_master.c
+"176 C:\Users\user\MPLABXProjects\SMT_32K.x\mcc_generated_files/i2c2_master.c
 [v _I2C2_Open I2C2_Open `(E353  1 e 1 0 ]
 {
 [v I2C2_Open@address address `uc  1 a 1 wreg ]
@@ -1499,7 +1499,7 @@ I2C2_FAIL 2
 {
 "523
 } 0
-"170 C:\Users\110186081\MPLABXProjects\SMT_32K.X\mcc_generated_files/examples/i2c2_master_example.c
+"170 C:\Users\user\MPLABXProjects\SMT_32K.x\mcc_generated_files/examples/i2c2_master_example.c
 [v _rdBlkRegCompleteHandler rdBlkRegCompleteHandler `(E358  1 s 1 rdBlkRegCompleteHandler ]
 {
 [v rdBlkRegCompleteHandler@ptr ptr `*.1v  1 p 1 9 ]
@@ -1529,7 +1529,7 @@ I2C2_FAIL 2
 [v wr2RegCompleteHandler@ptr ptr `*.1v  1 p 1 9 ]
 "168
 } 0
-"273 C:\Users\110186081\MPLABXProjects\SMT_32K.X\mcc_generated_files/i2c2_master.c
+"273 C:\Users\user\MPLABXProjects\SMT_32K.x\mcc_generated_files/i2c2_master.c
 [v _I2C2_SetDataCompleteCallback I2C2_SetDataCompleteCallback `(v  1 e 1 0 ]
 {
 [v I2C2_SetDataCompleteCallback@cb cb `*.37(E358  1 p 2 5 ]
@@ -1609,42 +1609,42 @@ I2C2_FAIL 2
 [v ___xxtofl@sign sign `uc  1 a 1 8 ]
 "44
 } 0
-"50 C:\Users\110186081\MPLABXProjects\SMT_32K.X\mcc_generated_files/mcc.c
+"50 C:\Users\user\MPLABXProjects\SMT_32K.x\mcc_generated_files/mcc.c
 [v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
 {
 "59
 } 0
-"62 C:\Users\110186081\MPLABXProjects\SMT_32K.X\mcc_generated_files/tmr2.c
+"62 C:\Users\user\MPLABXProjects\SMT_32K.x\mcc_generated_files/tmr2.c
 [v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
 {
 "86
 } 0
-"59 C:\Users\110186081\MPLABXProjects\SMT_32K.X\mcc_generated_files/smt1.c
+"59 C:\Users\user\MPLABXProjects\SMT_32K.x\mcc_generated_files/smt1.c
 [v _SMT1_Initialize SMT1_Initialize `(v  1 e 1 0 ]
 {
 "88
 } 0
-"79 C:\Users\110186081\MPLABXProjects\SMT_32K.X\mcc_generated_files/mcc.c
+"79 C:\Users\user\MPLABXProjects\SMT_32K.x\mcc_generated_files/mcc.c
 [v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
 {
 "93
 } 0
-"55 C:\Users\110186081\MPLABXProjects\SMT_32K.X\mcc_generated_files/pin_manager.c
+"55 C:\Users\user\MPLABXProjects\SMT_32K.x\mcc_generated_files/pin_manager.c
 [v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
 {
 "123
 } 0
-"61 C:\Users\110186081\MPLABXProjects\SMT_32K.X\mcc_generated_files/mcc.c
+"61 C:\Users\user\MPLABXProjects\SMT_32K.x\mcc_generated_files/mcc.c
 [v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
 {
 "77
 } 0
-"167 C:\Users\110186081\MPLABXProjects\SMT_32K.X\mcc_generated_files/i2c2_master.c
+"167 C:\Users\user\MPLABXProjects\SMT_32K.x\mcc_generated_files/i2c2_master.c
 [v _I2C2_Initialize I2C2_Initialize `(v  1 e 1 0 ]
 {
 "174
 } 0
-"66 C:\Users\110186081\MPLABXProjects\SMT_32K.X\mcc_generated_files/eusart.c
+"66 C:\Users\user\MPLABXProjects\SMT_32K.x\mcc_generated_files/eusart.c
 [v _EUSART_Initialize EUSART_Initialize `(v  1 e 1 0 ]
 {
 "92
@@ -1667,7 +1667,7 @@ I2C2_FAIL 2
 [v EUSART_SetErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 0 ]
 "167
 } 0
-"165 C:\Users\110186081\MPLABXProjects\SMT_32K.X\mcc_generated_files/smt1.c
+"165 C:\Users\user\MPLABXProjects\SMT_32K.x\mcc_generated_files/smt1.c
 [v _SMT1_GetCapturedPeriod SMT1_GetCapturedPeriod `(ul  1 e 4 0 ]
 {
 "168

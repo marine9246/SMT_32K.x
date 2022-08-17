@@ -49,9 +49,9 @@
 long Period;
 double Freq, Hodo;
 
-unsigned char Msg1[] = "Hodo Test"; //タイトル表示
-unsigned char Msg2[] = "Freq=XXXXXXXX"; //Freq用に配列データ確保
-unsigned char Msg3[] = "Hode=XXXXXXXX"; //Hodo用に配列データ確保
+char Msg1[] = "Hodo Test"; //タイトル表示
+char Msg2[] = "Freq=XXXXXXXX"; //Freq用に配列データ確保
+char Msg3[] = "Hode=XXXXXXXX"; //Hodo用に配列データ確保
 
 void main(void)
 {
@@ -92,10 +92,10 @@ void main(void)
         Freq = (128 * 32000.0) / (Period * 0.03125); //PR2 = 31(32カウント)
         Hodo = (1.0 - 32.768 / Freq) * 86400.0;
 
-        sprintf(Msg2, "Freq=%.4f KHz", Freq); //Msg2(文字配列)に書式設定でFreqを設定
+        sprintf(Msg2, "Freq= %.4lf KHz", Freq); //Msg2(文字配列)に書式設定でFreqを設定
         lcd_cmd(0x80); //2行目指定
         lcd_str(Msg2); //Freq出力
-        sprintf(Msg3, "Hodo=%+.3f s/d", Hodo);
+        sprintf(Msg3, "Hodo=%+.3lf s/d", Hodo);
         lcd_cmd(0xC0); //2行目指定
         lcd_str(Msg3); //Hodo出力
         //__delay_ms(50);

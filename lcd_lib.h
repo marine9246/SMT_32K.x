@@ -33,9 +33,9 @@ const unsigned int ICON[14][2]={
     {0x0F, 0x10}        // 丸
 };
 
-void lcd_data(unsigned char data);
-void lcd_cmd(unsigned char cmd);
+void lcd_data(char data);
+void lcd_cmd(char cmd);
 void lcd_init(void);
-void lcd_str(const unsigned char* ptr);
+void lcd_str(const char* ptr);
 void lcd_clear(void);
-void lcd_icon(unsigned int num, unsigned char onoff);
+void lcd_icon(unsigned int num, char onoff);

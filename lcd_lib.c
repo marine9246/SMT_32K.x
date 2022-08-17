@@ -15,9 +15,9 @@
 /*********************************
  * 液晶へ1文字表示データ出力
  *********************************/
-void lcd_data(unsigned char data)
+void lcd_data(char data)
 {
-    unsigned char tbuf[2]; // バッファ構成
+    char tbuf[2]; // バッファ構成
     tbuf[0] = 0x40; // データ指定
     tbuf[1] = data; // 文字データ
 
@@ -32,9 +32,9 @@ void lcd_data(unsigned char data)
 /*******************************
  * 液晶へ１コマンド出力
  *******************************/
-void lcd_cmd(unsigned char cmd)
+void lcd_cmd(char cmd)
 {
-    unsigned char tbuf[2]; // バッファ構成
+    char tbuf[2]; // バッファ構成
     tbuf[0] = 0x00; // コマンド指定
     tbuf[1] = cmd; // コマンドデータ
 
@@ -82,7 +82,7 @@ void lcd_clear(void)
 /*****************************
  * 文字列表示関数
  *****************************/
-void lcd_str(const unsigned char* ptr)
+void lcd_str(const char* ptr)
 {
     while (*ptr != 0) //文字取り出し
         lcd_data(*ptr++); //文字表示
@@ -91,7 +91,7 @@ void lcd_str(const unsigned char* ptr)
 /*****************************
  *  アイコン表示制御関数
  *****************************/
-void lcd_icon(unsigned int num, unsigned char onoff)
+void lcd_icon(unsigned int num, char onoff)
 {
     lcd_cmd(0x39); // Extend mode
     lcd_cmd(0x40 + ICON[num][0]); // アイコンアドレス指定

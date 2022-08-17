@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project>
-  <executable name="dist/default/production\SMT_32K.X.production.hex">
+  <executable name="dist/default/production\SMT_32K.x.production.hex">
     <memory name="program">
       <units>words</units>
       <length>32768</length>
-      <used>7662</used>
-      <free>25106</free>
+      <used>7665</used>
+      <free>25103</free>
     </memory>
     <memory name="data">
       <units>bytes</units>

@@ -3,10 +3,10 @@ Microchip MPLAB XC8 Compiler V2.20
 Linker command line:
 
 -W-3 --edf=C:\Program Files\Microchip\xc8\v2.20\pic\dat\en_msgs.txt -cn \
-  -h+dist/default/production\SMT_32K.X.production.sym \
-  --cmf=dist/default/production\SMT_32K.X.production.cmf -z -Q16F18857 \
-  -oC:\Users\110186~2\AppData\Local\Temp\s9pc.2 --defsym=__MPLAB_BUILD=1 \
-  -Mdist/default/production/SMT_32K.X.production.map -E1 -ver=XC8 Compiler \
+  -h+dist/default/production\SMT_32K.x.production.sym \
+  --cmf=dist/default/production\SMT_32K.x.production.cmf -z -Q16F18857 \
+  -oC:\Users\user\AppData\Local\Temp\s858.2 --defsym=__MPLAB_BUILD=1 \
+  -Mdist/default/production/SMT_32K.x.production.map -E1 -ver=XC8 Compiler \
   --acfsm=1493 -ASTACK=02190h-02FEFh -pstack=STACK -ACODE=00h-07FFhx16 \
   -ASTRCODE=00h-07FFFh -ASTRING=00h-0FFhx128 -ACONST=00h-0FFhx128 \
   -AENTRY=00h-0FFhx128 -ACOMMON=070h-07Fh -ABANK0=020h-06Fh \
@@ -54,8 +54,8 @@ Linker command line:
   -preset_vec=00h,intentry,init,end_init -ppowerup=CODE -pcinit=CODE \
   -pfunctab=ENTRY -AEEDATA=00h-0FFh/0F000h -peeprom_data=EEDATA -DEEDATA=2 \
   -DCODE=2 -DSTRCODE=2 -DSTRING=2 -DCONST=2 -DENTRY=2 -k \
-  C:\Users\110186~2\AppData\Local\Temp\s9pc.o \
-  dist/default/production\SMT_32K.X.production.o 
+  C:\Users\user\AppData\Local\Temp\s858.o \
+  dist/default/production\SMT_32K.x.production.o 
 
 Object code version is 3.11
 
@@ -64,11 +64,11 @@ Machine type is 16F18857
 
 
                 Name                               Link     Load   Length Selector   Space Scale
-C:\Users\110186~2\AppData\Local\Temp\s9pc.o
+C:\Users\user\AppData\Local\Temp\s858.o
                 end_init                              2        2        2        0       0
                 reset_vec                             0        0        2        0       0
                 config                             8007     8007        5        0       4
-dist/default/production\SMT_32K.X.production.o
+dist/default/production\SMT_32K.x.production.o
                 cinit                               7D9      7D9       27      FB2       0
                 config                             8007     8007        5        0       4
                 text95                             1A9F     1A9F        3     353E       0
@@ -177,13 +177,13 @@ dist/default/production\SMT_32K.X.production.o
                 dataBANK3                           1A0      1A0       26      1A0       1
                 bssBANK3                            1C6      1C6       14      1A0       1
                 bssBANK2                            120      120       2C      120       1
-                stringtext8                        2085     2085        3     4000       0
-                stringtext7                        2081     2081        4     4000       0
-                stringtext6                        207D     207D        4     4000       0
-                stringtext5                        2079     2079        4     4000       0
-                stringtext4                        2075     2075        4     4000       0
-                stringtext3                        2067     2067        E     4000       0
-                stringtext2                        2038     2038       2F     4000       0
+                stringtext8                        2088     2088        3     4000       0
+                stringtext7                        2084     2084        4     4000       0
+                stringtext6                        2080     2080        4     4000       0
+                stringtext5                        207C     207C        4     4000       0
+                stringtext4                        2078     2078        4     4000       0
+                stringtext3                        2068     2068       10     4000       0
+                stringtext2                        2038     2038       30     4000       0
                 stringtext1                        2000     2000       38     4000       0
                 idataBANK3                         1DB4     1DB4       26     3B68       0
 
@@ -295,13 +295,13 @@ TOTAL           Name                               Link     Load   Length     Sp
                 idataBANK3                         1DB4     1DB4       26         0
 
         CLASS   STRCODE        
-                stringtext8                        2085     2085        3         0
-                stringtext7                        2081     2081        4         0
-                stringtext6                        207D     207D        4         0
-                stringtext5                        2079     2079        4         0
-                stringtext4                        2075     2075        4         0
-                stringtext3                        2067     2067        E         0
-                stringtext2                        2038     2038       2F         0
+                stringtext8                        2088     2088        3         0
+                stringtext7                        2084     2084        4         0
+                stringtext6                        2080     2080        4         0
+                stringtext5                        207C     207C        4         0
+                stringtext4                        2078     2078        4         0
+                stringtext3                        2068     2068       10         0
+                stringtext2                        2038     2038       30         0
                 stringtext1                        2000     2000       38         0
 
         CLASS   STRING         
@@ -698,7 +698,7 @@ SEGMENTS        Name                           Load    Length   Top    Selector 
                 text87                         001F47  00003D  001F84      3E8E       0  CODE        2
                 text34                         001F84  00003D  001FC1      3F08       0  CODE        2
                 text33                         001FC1  00003F  002000      3F82       0  CODE        2
-                stringtext1                    002000  000088  002088      4000       0  STRCODE     2
+                stringtext1                    002000  00008B  00208B      4000       0  STRCODE     2
 
 
 UNUSED ADDRESS RANGES
@@ -754,12 +754,12 @@ UNUSED ADDRESS RANGES
         BANK9            004A0-004EF              50           1
         BIGRAM           02000-02FEF             FF0           1
         CODE             01800-01A99             29A           2
-                         02088-07FFF             800
+                         0208B-07FFF             800
         CONST            01800-01A99             100           2
-                         02088-07FFF             100
+                         0208B-07FFF             100
         EEDATA           0F000-0F0FF             100           2
         ENTRY            01800-01A99             100           2
-                         02088-07FFF             100
+                         0208B-07FFF             100
         IDLOC            08000-08003               4           2
         RAM              0016F-0016F               1           1
                          001DA-001EF              16
@@ -875,9 +875,9 @@ UNUSED ADDRESS RANGES
         SFR9             00480-0049F              20           1
         STACK            02190-02FEF             E60           1
         STRCODE          01800-01A99             29A           2
-                         02088-07FFF            5F78
+                         0208B-07FFF            5F75
         STRING           01800-01A99             100           2
-                         02088-07FFF             100
+                         0208B-07FFF             100
 
                                   Symbol Table
 
@@ -1239,7 +1239,7 @@ __Hsfr63                                       sfr63        00000
 __Hsfr7                                        sfr7         00000
 __Hsfr8                                        sfr8         00000
 __Hsfr9                                        sfr9         00000
-__Hspace_0                                     (abs)        02088
+__Hspace_0                                     (abs)        0208B
 __Hspace_1                                     (abs)        00270
 __Hspace_2                                     (abs)        00000
 __Hspace_3                                     (abs)        00000
@@ -1427,7 +1427,7 @@ __Lstringtext7                                 stringtext7  00000
 __Lstringtext8                                 stringtext8  00000
 __Lstringtext9                                 stringtext9  00000
 __Ltext                                        text         00000
-__S0                                           (abs)        02088
+__S0                                           (abs)        0208B
 __S1                                           (abs)        00270
 __S2                                           (abs)        00000
 __S3                                           (abs)        00000
@@ -1618,12 +1618,12 @@ __pidataBANK3                                  idataBANK3   01DB4
 __pmaintext                                    maintext     0152C
 __pstringtext1                                 stringtext1  02000
 __pstringtext2                                 stringtext2  02038
-__pstringtext3                                 stringtext3  02067
-__pstringtext4                                 stringtext4  02075
-__pstringtext5                                 stringtext5  02079
-__pstringtext6                                 stringtext6  0207D
-__pstringtext7                                 stringtext7  02081
-__pstringtext8                                 stringtext8  02085
+__pstringtext3                                 stringtext3  02068
+__pstringtext4                                 stringtext4  02078
+__pstringtext5                                 stringtext5  0207C
+__pstringtext6                                 stringtext6  02080
+__pstringtext7                                 stringtext7  02084
+__pstringtext8                                 stringtext8  02088
 __pstringtext9                                 stringtext9  00000
 __ptext1                                       text1        01E57
 __ptext10                                      text10       01C70
@@ -2007,7 +2007,7 @@ Total ram usage:        2 bytes
   s               1    wreg     PTR unsigned char 
 		 -> Msg3(14), Msg2(14), 
   fmt             2   18[BANK2 ] PTR const unsigned char 
-		 -> STR_2(15), STR_1(14), 
+		 -> STR_2(16), STR_1(16), 
  Auto vars:     Size  Location     Type
   s               1   26[BANK2 ] PTR unsigned char 
 		 -> Msg3(14), Msg2(14), 
@@ -2045,14 +2045,14 @@ Total ram usage:       16 bytes
   fp              1    wreg     PTR struct _IO_FILE
 		 -> sprintf@f(5), 
   fmt             2   74[BANK1 ] PTR const unsigned char 
-		 -> STR_2(15), STR_1(14), 
+		 -> STR_2(16), STR_1(16), 
   ap              1   76[BANK1 ] PTR PTR void 
 		 -> sprintf@ap(1), 
  Auto vars:     Size  Location     Type
   fp              1   15[BANK2 ] PTR struct _IO_FILE
 		 -> sprintf@f(5), 
   cfmt            2   16[BANK2 ] PTR unsigned char 
-		 -> STR_2(15), STR_1(14), 
+		 -> STR_2(16), STR_1(16), 
  Return value:  Size  Location     Type
                   2   74[BANK1 ] int 
  Registers used:
@@ -2923,7 +2923,7 @@ Total ram usage:        9 bytes
 		line 4 in file "C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\atoi.c"
  Parameters:    Size  Location     Type
   s               2    6[COMMON] PTR const unsigned char 
-		 -> STR_2(15), STR_1(14), 
+		 -> STR_2(16), STR_1(16), 
  Auto vars:     Size  Location     Type
   n               2    7[BANK0 ] int 
   neg             2    0[BANK0 ] int 
